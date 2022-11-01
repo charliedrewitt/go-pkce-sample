@@ -15,10 +15,12 @@ Install modules and run the server
 go mod tidy
 go run main.go
 ```
-Finally, to view the sample in action, browse to http://localhost:\<PORT\>
+Finally, to view the sample in action, browse to http://localhost:8089
+
+> Note: Don't forget to change 8089 to whatever you set as the `PORT` env var
 
 # How to run the sample using VSCODE
 If you're using VSCODE, a `launch.json` has been provided. Simply copy `.env.sample` to `.env` and update the values as indicated in the env vars above. Then, F5 should run the server.
 
 ---
-_DISCLAIMER: This code should be used as a guide only and has not been thoroughly evaluated for it's security best practise. Use at your own risk._
+>DISCLAIMER: This code should be used as a guide only and has not been thoroughly evaluated for it's security best practise. Use at your own risk.
